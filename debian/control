@@ -6,7 +6,7 @@ Standards-Version: 3.9.2
 Build-Depends: debhelper (>= 7.0.8)
 
 Package: soulmate-pve
-Architecture: amd64
+Architecture: all
 Depends: proxmox-ve, postfix, open-iscsi
 Description: Soulmate Proxmox VE installer
  This package automates Proxmox VE installation in soulmate
