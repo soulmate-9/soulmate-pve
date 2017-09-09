@@ -1,3 +1,10 @@
+soulmate-pve (1:2.9.soulmate1) stretch; urgency=medium
+
+  * Replace qemu binaries with trivial packages using pve-qemu-kvm
+  * New version schema to override current qemu versions
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Sat, 09 Sep 2017 01:18:25 +0000
+
 soulmate-pve (0.2) stretch; urgency=medium
 
   * Added pve-qemu-system-x86

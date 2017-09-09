@@ -11,12 +11,37 @@ Depends: proxmox-ve, postfix, open-iscsi
 Description: Soulmate Proxmox VE installer
  This package automates Proxmox VE installation in soulmate
 
-Package: pve-qemu-system-x86
+Package: qemu-system-x86
 Architecture: amd64
 Depends: pve-qemu-kvm
-Replaces: qemu-system-x86
-Provides: qemu-system-x86
-Conflicts: qemu-system-x86
 Description: Replacement of qemu-system-x86 using pve-qemu-kvm
  Trivial replacement of qemu-system-x86 for compatibility
+ with proxmox VE
+
+Package: qemu-kvm
+Architecture: amd64
+Depends: pve-qemu-kvm
+Description: Replacement of qemu-kvm using pve-qemu-kvm
+ Trivial replacement of qemu-kvm for compatibility
+ with proxmox VE
+
+Package: qemu-system-common
+Architecture: amd64
+Depends: pve-qemu-kvm
+Description: Replacement of qemu-system-common using pve-qemu-kvm
+ Trivial replacement of qemu-system-common for compatibility
+ with proxmox VE
+
+Package: qemu-utils
+Architecture: amd64
+Depends: pve-qemu-kvm
+Description: Replacement of qemu-utils using pve-qemu-kvm
+ Trivial replacement of qemu-utils for compatibility
+ with proxmox VE
+
+Package: qemu-block-extra
+Architecture: amd64
+Depends: pve-qemu-kvm
+Description: Replacement of qemu-block-extra using pve-qemu-kvm
+ Trivial replacement of qemu-block-extra for compatibility
  with proxmox VE
