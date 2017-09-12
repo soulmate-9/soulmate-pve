@@ -1,3 +1,9 @@
+soulmate-pve (1:2.9.soulmate7) stretch; urgency=medium
+
+  * Added conflicts: network-manager, resolvconf
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Tue, 12 Sep 2017 20:46:42 +0000
+
 soulmate-pve (1:2.9.soulmate6) stretch; urgency=medium
 
   * initrd and vmlinuz links renamed to avoid issues with update-grub
