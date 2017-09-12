@@ -7,9 +7,17 @@ Build-Depends: debhelper (>= 7.0.8)
 
 Package: soulmate-pve
 Architecture: amd64
-Depends: proxmox-ve, postfix, open-iscsi, pve-kernel-4.4.76-1-pve, pve-headers-4.4.76-1-pve, pve-firmware
+Depends: proxmox-ve, postfix, open-iscsi
+Suggests: soulmate-pve-kernel
 Description: Soulmate Proxmox VE installer
  This package automates Proxmox VE installation in soulmate
+
+Package: soulmate-pve-kernel
+Architecture: amd64
+Depends: pve-kernel-4.4.76-1-pve, pve-headers-4.4.76-1-pve, pve-firmware
+Description: Soulmate Proxmox VE compatible kernel
+ This kernel grants Proxmox VE comptibility and bypass
+ the kernel >=4.9 tg3 network module nightmare
 
 Package: qemu-system-x86
 Architecture: amd64
