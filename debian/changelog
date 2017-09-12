@@ -1,3 +1,9 @@
+soulmate-pve (1:2.9.soulmate6) stretch; urgency=medium
+
+  * initrd and vmlinuz links renamed to avoid issues with update-grub
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Tue, 12 Sep 2017 17:16:26 +0000
+
 soulmate-pve (1:2.9.soulmate5) stretch; urgency=medium
 
   * Added soulmate-pve-kernel binary package
