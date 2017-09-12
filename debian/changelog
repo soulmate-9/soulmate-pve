@@ -1,3 +1,9 @@
+soulmate-pve (1:2.9.soulmate2) stretch; urgency=medium
+
+  * Added depends ond jessie pve kernel and headers (workaround to tg3)
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Tue, 12 Sep 2017 08:33:54 +0000
+
 soulmate-pve (1:2.9.soulmate1) stretch; urgency=medium
 
   * Replace qemu binaries with trivial packages using pve-qemu-kvm
