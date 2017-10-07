@@ -1,3 +1,10 @@
+soulmate-pve (1:2.9.soulmate8) stretch; urgency=medium
+
+  * Added pve-headers to soulmate-pve for compatibility with
+    virutalbox and other DKMS packages
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Sat, 07 Oct 2017 00:32:44 +0000
+
 soulmate-pve (1:2.9.soulmate7) stretch; urgency=medium
 
   * Added conflicts: network-manager, resolvconf
