@@ -7,11 +7,18 @@ Build-Depends: debhelper (>= 7.0.8)
 
 Package: soulmate-pve
 Architecture: amd64
-Depends: proxmox-ve, pve-headers, postfix, open-iscsi
+Depends: soulmate-pve-core
 Conflicts: network-manager, resolvconf
 Suggests: soulmate-pve-kernel
 Description: Soulmate Proxmox VE installer
  This package automates Proxmox VE installation in soulmate
+
+Package: soulmate-pve-core
+Architecture: amd64
+Depends: proxmox-ve, pve-headers, postfix, open-iscsi
+Suggests: soulmate-pve-kernel
+Description: Soulmate Proxmox VE core packages
+ This package installs soulmate required Proxmox VE packages
 
 Package: soulmate-pve-kernel
 Architecture: amd64

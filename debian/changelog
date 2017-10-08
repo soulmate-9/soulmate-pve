@@ -1,3 +1,9 @@
+soulmate-pve (1:2.9.soulmate9) stretch; urgency=medium
+
+  * Added soulmate-pve-core
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Sun, 08 Oct 2017 15:59:24 +0000
+
 soulmate-pve (1:2.9.soulmate8) stretch; urgency=medium
 
   * Added pve-headers to soulmate-pve for compatibility with
