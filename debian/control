@@ -8,7 +8,7 @@ Build-Depends: debhelper (>= 7.0.8)
 Package: soulmate-pve
 Architecture: amd64
 Depends: soulmate-pve-core
-Conflicts: network-manager, resolvconf
+Conflicts: resolvconf
 Suggests: soulmate-pve-kernel
 Description: Soulmate Proxmox VE installer
  This package automates Proxmox VE installation in soulmate
@@ -22,7 +22,7 @@ Description: Soulmate Proxmox VE core packages
 
 Package: soulmate-pve-kernel
 Architecture: amd64
-Depends: pve-kernel-4.4.76-1-pve, pve-headers-4.4.76-1-pve, pve-firmware
+Depends: pve-headers-4.15.18-3-pve, pve-kernel-4.15.18-3-pve pve-firmware
 Description: Soulmate Proxmox VE compatible kernel
  This kernel grants Proxmox VE comptibility and bypass
  the kernel >=4.9 tg3 network module nightmare

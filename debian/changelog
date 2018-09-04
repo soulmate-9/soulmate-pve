@@ -1,3 +1,10 @@
+soulmate-pve (1:2.9.soulmate10) stretch; urgency=medium
+
+  * Updated pve-kernel depends
+  * Remove conflicts with network-manager
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Tue, 04 Sep 2018 11:25:47 +0000
+
 soulmate-pve (1:2.9.soulmate9) stretch; urgency=medium
 
   * Added soulmate-pve-core
