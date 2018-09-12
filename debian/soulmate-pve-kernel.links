@@ -1,2 +1,2 @@
-/boot/initrd.img-4.15.18-3-pve	/boot/initrd.img-pve
-/boot/vmlinuz-4.15.18-3-pve	/boot/vmlinuz-pve
+/boot/initrd.img-4.15.18-4-pve	/boot/initrd.img-pve
+/boot/vmlinuz-4.15.18-4-pve	/boot/vmlinuz-pve
