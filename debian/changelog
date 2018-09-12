@@ -1,3 +1,9 @@
+soulmate-pve (1:2.9.soulmate12) stretch; urgency=medium
+
+  * New kernel pve-kernel-4.15.18-4-pve
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Wed, 12 Sep 2018 10:37:53 +0000
+
 soulmate-pve (1:2.9.soulmate11) stretch; urgency=medium
 
   * Fixed pve-kernel links in /boot
