@@ -1,3 +1,9 @@
+soulmate-pve (1:2.9.soulmate15) stretch; urgency=medium
+
+  * New upstream version of pve-kernel
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Wed, 26 Sep 2018 08:41:40 +0000
+
 soulmate-pve (1:2.9.soulmate14) stretch; urgency=medium
 
   * Added depens on pve-headers-4.15 in soulmate-pve-kernel
