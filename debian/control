@@ -22,7 +22,7 @@ Description: Soulmate Proxmox VE core packages
 
 Package: soulmate-pve-kernel
 Architecture: amd64
-Depends: pve-headers-4.15.18-5-pve, pve-kernel-4.15.18-5-pve, pve-firmware, pve-headers-4.15, pve-kernel-4.15
+Depends: pve-firmware, pve-headers-4.15, pve-kernel-4.15
 Description: Soulmate Proxmox VE compatible kernel
  This kernel grants Proxmox VE comptibility and bypass
  the kernel >=4.9 tg3 network module nightmare

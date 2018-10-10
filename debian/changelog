@@ -1,3 +1,9 @@
+soulmate-pve (1:2.9.soulmate16) stretch; urgency=medium
+
+  * /boot links now use /boot/pve/ links provided by pve-kernel-4.15 package
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Wed, 10 Oct 2018 19:26:08 +0000
+
 soulmate-pve (1:2.9.soulmate15) stretch; urgency=medium
 
   * New upstream version of pve-kernel
