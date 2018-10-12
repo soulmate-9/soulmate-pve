@@ -9,23 +9,38 @@ Package: soulmate-pve
 Architecture: amd64
 Depends: soulmate-pve-core
 Conflicts: resolvconf
-Suggests: soulmate-pve-kernel
+Suggests: soulmate-pve-kernel-set-default
 Description: Soulmate Proxmox VE installer
  This package automates Proxmox VE installation in soulmate
 
 Package: soulmate-pve-core
 Architecture: amd64
-Depends: proxmox-ve, pve-headers, postfix, open-iscsi
-Suggests: soulmate-pve-kernel
+Depends: proxmox-ve, pve-headers, postfix, open-iscsi, soulmate-pve-kernel
+Suggests: soulmate-pve-kernel-set-default
 Description: Soulmate Proxmox VE core packages
  This package installs soulmate required Proxmox VE packages
 
 Package: soulmate-pve-kernel
 Architecture: amd64
-Depends: pve-firmware, pve-headers-4.15, pve-kernel-4.15
+Depends: soulmate-pve-firmware, pve-headers-4.15, pve-kernel-4.15
+Suggests: soulmate-pve-kernel-set-default
 Description: Soulmate Proxmox VE compatible kernel
- This kernel grants Proxmox VE comptibility and bypass
- the kernel >=4.9 tg3 network module nightmare
+ This kernel grants Proxmox VE compatibility but
+ is affected by kernel >=4.9 tg3 network module issues
+
+Package: soulmate-pve-kernel-set-default
+Architecture: amd64
+Depends: pve-firmware, pve-headers-4.15, pve-kernel-4.15
+Description: Set soulmate-pve-kernel as default kernel in grub bootloader
+ This package fixes the soulmate-pve selected kernel as default kernel
+ in grub to grant Proxmox VE compatibility
+
+Package: soulmate-pve-firmware
+Architecture: amd64
+Depends: broadcom-bt-firmware, pve-firmware
+Suggests: soulmate-pve-kernel
+Description: Soulmate Proxmox VE firmware
+ This package installs firmware packages required by soulmate and proxmox pve kernel
 
 Package: qemu-system-x86
 Architecture: amd64

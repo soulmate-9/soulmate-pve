@@ -1,3 +1,10 @@
+soulmate-pve (1:2.9.soulmate17) stretch; urgency=medium
+
+  * New binary packages soulmate-pve-kernel-set-default and
+    soulmate-pve-firmware
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Fri, 12 Oct 2018 10:32:57 +0000
+
 soulmate-pve (1:2.9.soulmate16) stretch; urgency=medium
 
   * /boot links now use /boot/pve/ links provided by pve-kernel-4.15 package
