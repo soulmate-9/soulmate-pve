@@ -1,3 +1,10 @@
+soulmate-pve (1:2.9.soulmate18) stretch; urgency=medium
+
+  * Set soulmate-pve-kernel-set-default as depends in soulmate-pve but only as
+    suggested in soulmate-pve-core
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Fri, 12 Oct 2018 10:40:34 +0000
+
 soulmate-pve (1:2.9.soulmate17) stretch; urgency=medium
 
   * New binary packages soulmate-pve-kernel-set-default and

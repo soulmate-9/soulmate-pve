@@ -7,9 +7,8 @@ Build-Depends: debhelper (>= 7.0.8)
 
 Package: soulmate-pve
 Architecture: amd64
-Depends: soulmate-pve-core
+Depends: soulmate-pve-core, soulmate-pve-kernel-set-default
 Conflicts: resolvconf
-Suggests: soulmate-pve-kernel-set-default
 Description: Soulmate Proxmox VE installer
  This package automates Proxmox VE installation in soulmate
 
@@ -30,7 +29,7 @@ Description: Soulmate Proxmox VE compatible kernel
 
 Package: soulmate-pve-kernel-set-default
 Architecture: amd64
-Depends: pve-firmware, pve-headers-4.15, pve-kernel-4.15
+Depends: soulmate-pve-kernel
 Description: Set soulmate-pve-kernel as default kernel in grub bootloader
  This package fixes the soulmate-pve selected kernel as default kernel
  in grub to grant Proxmox VE compatibility
